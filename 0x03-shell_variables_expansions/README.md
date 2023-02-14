@@ -1,6 +1,5 @@
-0x03-shell_variables_expansions
+0x03. Shell, init files, variables and expansions
 
-Task 0.<o> 
-A script that creates an alias.
-* Name: ls
-* Value: rm *
+| '0-alias' | Create a script that creates an alias |
+
+
