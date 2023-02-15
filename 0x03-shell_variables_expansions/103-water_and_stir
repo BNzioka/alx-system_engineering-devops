@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $(( (5#$(echo $WATER | tr '[water]' '[1234]')) + (5#$(echo $STIR | tr '[stir.]' '[1234]')) )) | tr '[1234567]' '[bestchol])'
+printf "%0\n" $(( (5#$(echo $WATER | tr '[water]' '[1234]')) + (5#$(echo $STIR | tr '[stir.]' '[1234]')) )) | tr '[1234567]' '[bestchol])'
